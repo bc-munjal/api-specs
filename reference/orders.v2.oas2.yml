@@ -3419,7 +3419,8 @@ components:
         gift_certificate_id:
           type: integer
           example: 52
-          description: Numeric ID of the associated Gift Certificate.
+          description:  ID of the associated gift certificate.
+          nullable: true
     orderCount:
       title: orderCount
       example:
